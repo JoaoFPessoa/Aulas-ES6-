@@ -12,3 +12,8 @@ const user = {
 const {name, ...rest} = user;
 
 console.log(rest)
+// {
+//     lastName: 'Pessoa',
+//     age: 25,
+//     skills: [ 'React', 'Node', 'TypeScript' ]
+//   }
